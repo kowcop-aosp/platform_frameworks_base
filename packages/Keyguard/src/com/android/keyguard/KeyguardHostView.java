@@ -1098,6 +1098,10 @@ public class KeyguardHostView extends KeyguardViewBase {
             showSecurityScreen(securityMode);
         }
     }
+    
+    private void minimizeChallengeIfDesired() {
+        mSlidingChallengeLayout.showChallenge(false);
+    }
 
     private int getSecurityViewIdForMode(SecurityMode securityMode) {
         switch (securityMode) {
