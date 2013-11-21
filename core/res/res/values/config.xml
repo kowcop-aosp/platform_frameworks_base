@@ -1239,7 +1239,7 @@
     
 
     <!-- kill app long press back -->
-    <integer name="config_backKillTimeout">2000</integer>
+    <integer name="config_backKillTimeout">500</integer>
 
     <string-array name="config_notificationScorers">
         <item>com.android.internal.notification.DemoContactNotificationScorer</item>
