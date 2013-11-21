@@ -311,14 +311,6 @@ public class PhoneWindowManager implements WindowManagerPolicy {
     WindowState mFocusedWindow;
     IApplicationToken mFocusedApp;
 
-<<<<<<< HEAD
-=======
-    // Volume rocker wake
-    boolean mVolumeWakeScreen;
-    // Volume rocker music controls
-    boolean mVolBtnMusicControls;
-    boolean mIsLongPress;
-
     // powermenu Tile
     private PowerMenuReceiver mPowerMenuReceiver;
     class PowerMenuReceiver extends BroadcastReceiver {
@@ -356,7 +348,6 @@ public class PhoneWindowManager implements WindowManagerPolicy {
         }
     }
 
->>>>>>> 88215e7... quick settings: power menu tile
     private final class PointerLocationPointerEventListener implements PointerEventListener {
         @Override
         public void onPointerEvent(MotionEvent motionEvent) {
